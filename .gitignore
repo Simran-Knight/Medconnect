@@ -1,0 +1,40 @@
+# Virtual environment - CRITICAL to ignore
+venv/
+env/
+ENV/
+
+# Database files (will be created later)
+*.sqlite3
+*.db
+
+# Python compiled files and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (security risk!)
+.env
+.env.local
+.env.production
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Django-specific directories
+media/
+staticfiles/
+
+# Log files
+*.log
+
+# Migration files (optional - team decision)
+# migrations/
